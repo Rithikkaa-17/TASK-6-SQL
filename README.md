@@ -14,7 +14,7 @@ Analyze monthly revenue and order volume using SQL aggregations on the `online_s
 | File Name           | Description                                                                              |
 | ------------------- | ---------------------------------------------------------------------------------------- |
 | `TASK 6.sql`        | SQL script for table creation, insertion, and analysis queries                           |
-| `TASK 6 OUTPUT.txt` | Output of each query execution (with timestamps and errors)                              |
+| `TASK 6 OUTPUT.txt` | Output of each query execution                                                           |
 | `SQL QUERY+OUTPUT.pdf`| PDF version of query results (for report submission)                                   |
 
 # Mini Guide: SQL Features Used
