@@ -1,0 +1,115 @@
+
+
+Table ONLINE_SALES created.
+
+Elapsed: 00:00:00.011
+
+ORA-01861: literal does not match format string
+
+https://docs.oracle.com/error-help/db/ora-01861/Error at Line: 4 Column: 0 
+
+
+
+Table ONLINE_SALES dropped.
+
+Elapsed: 00:00:00.018
+
+
+Table ONLINE_SALES created.
+
+Elapsed: 00:00:00.018
+
+ORA-01861: literal does not match format string
+
+https://docs.oracle.com/error-help/db/ora-01861/Error at Line: 4 Column: 0 
+
+
+ORA-01861: literal does not match format string
+
+https://docs.oracle.com/error-help/db/ora-01861/Error at Line: 4 Column: 0 
+
+
+
+9 rows inserted.
+
+Elapsed: 00:00:00.009
+ORDER_MONTH 
+----------- 
+1           
+1           
+2           
+2           
+3           
+3           
+3           
+4           
+4           
+
+Elapsed: 00:00:00.073
+9 rows selected. 
+
+ORDER_YEAR ORDER_MONTH 
+---------- ----------- 
+2024       1           
+2024       2           
+2024       3           
+2024       4           
+
+Elapsed: 00:00:00.084
+4 rows selected. 
+
+ORDER_YEAR ORDER_MONTH TOTAL_REVENUE 
+---------- ----------- ------------- 
+2024       1           250           
+2024       2           500           
+2024       3           550           
+2024       4           720           
+
+Elapsed: 00:00:00.005
+4 rows selected. 
+
+
+
+
+
+
+
+
+
+
+ORDER_YEAR ORDER_MONTH TOTAL_ORDERS 
+---------- ----------- ------------ 
+2024       1           2            
+2024       2           2            
+2024       3           3            
+2024       4           2            
+
+Elapsed: 00:00:00.006
+4 rows selected. 
+
+ORDER_YEAR ORDER_MONTH TOTAL_REVENUE TOTAL_ORDERS 
+---------- ----------- ------------- ------------ 
+2024       1           250           2            
+2024       2           500           2            
+2024       3           550           3            
+2024       4           720           2            
+
+Elapsed: 00:00:00.005
+4 rows selected. 
+
+
+ORA-01861. 00000 -  "literal does not match format string"
+*Cause:    A literal was specified that did not match the the format string,
+           excluding leading spaces.
+*Action:   Correct the format string to match the literal, or the literal to
+           match the format string.Error at Line: 9 Column: 47 
+
+ORDER_YEAR ORDER_MONTH TOTAL_REVENUE TOTAL_ORDERS 
+---------- ----------- ------------- ------------ 
+2024       1           250           2            
+2024       2           500           2            
+2024       3           550           3            
+
+Elapsed: 00:00:00.006
+3 rows selected. 
+
